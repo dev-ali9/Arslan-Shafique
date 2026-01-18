@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background:
+        linear-gradient(
+            rgba(255, 105, 180, 0.5),
+            rgba(255, 105, 180, 0.5)
+        ),
+        url("pexels-george-dolgikh-551816-1303098.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+
+    width: 85%;
+    max-width: 600px;
+
+    max-height: 80vh;      /* long message ke liye */
+    overflow-y: auto;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+h1 {
+    color: #ff4d6d;
+}
+
+p {
+    color: #555;
+    font-size: 18px;
+}
+
+.message {
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: left;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #ff4d6d;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #e63956;
+}
